@@ -1,0 +1,1 @@
+Finally Dding next js to my projects to improve routing and functions like lazy loading
