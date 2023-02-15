@@ -1,11 +1,11 @@
 import React from 'react'
-import Logo from '../assets/Logo.svg'
+import Logonav from '../assets/Asset 1.svg'
 
 function Navbar() {
   return (
     <div id='nav' className='flex'>
       <div>
-        <img className='h-20 w-20' src={Logo} alt="/" />
+        <img className='h-[32px] w-[32px]' src={Logonav} alt="/" />
       </div>
       <ul className='flex text-white justify-center'>
         <li>Home</li>
