@@ -1,20 +1,22 @@
-import React from 'react'
-import Logonav from '../assets/Asset 1.svg'
+import React from "react";
+import Image from "next/image";
+import Kenya from "../assets/kenya.jpg";
+import Logonav from "../assets/Asset 1.svg";
 
 function Navbar() {
-  return (
-    <div id='nav' className='flex'>
-      <div>
-        <img className='h-[32px] w-[32px]' src={Logonav} alt="/" />
-      </div>
-      <ul className='flex text-white justify-center'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Portfolio</li>
-        <li>Shop</li>
-      </ul>
-    </div>
-  )
+	return (
+		<div className='fixed w-full h-20 shadow-xl z[100]'>
+			<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+				<Image
+					className='p-4'
+					src={Kenya}
+					alt='logo'
+					width={140}
+					height={140}
+				/>
+			</div>
+		</div>
+	);
 }
 
-export default Navbar
+export default Navbar;
